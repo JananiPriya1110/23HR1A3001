@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.refreshBtn {
+  background: #2563eb;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.refreshBtn:hover {
+  background: #1d4ed8;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.count {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  border-left: 5px solid #2563eb;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Placement {
+  background: #16a34a;
+}
+
+.Result {
+  background: #ea580c;
+}
+
+.Event {
+  background: #2563eb;
+}
+
+small {
+  color: #cbd5e1;
+}
+
+p {
+  margin: 0;
+}
